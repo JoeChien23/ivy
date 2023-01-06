@@ -1,0 +1,17 @@
+version: 0.0
+os: linux
+files:
+   - source: /
+     destination: /srv/www/crawler/public
+permissions:
+   - object: /srv/www/crawler/public
+     pattern: "**"
+     owner: deploy
+     group: users
+     mode: 755
+     type:
+       - file
+hooks:
+   AfterInstall:
+    - location: scripts/restart.sh
+      runas: root
