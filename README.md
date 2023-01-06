@@ -1,4 +1,4 @@
-# IVY
+# IVY 2015
 meet you with 2015.8.22
 care about voice, but...
 
@@ -12,7 +12,7 @@ date with you
 rain with you
 
 2015.10.09
-single with you
+sing with you
 
 2015.10.10
 eat with you
